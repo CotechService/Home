@@ -1,0 +1,58 @@
+@media screen and (max-width: 975px) {
+    .services_content {
+        flex-direction: column;
+    }
+    .footer_container {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+    .footer_text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .menu_icon_details {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        background-image: url("../image/general/building_mobile.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+    }
+    .preloader_text {
+        display: none;
+    }
+    .preloader_icon {
+        display: flex;
+    }
+    .header_container {
+        padding: 10px 20px;
+    }
+    .name_text {
+        font-size: 36px;
+    }
+    .menu_container {
+        display: none;
+    }
+    .paralax_container {
+        display: none;
+    }
+    section:first-of-type {
+        margin-top: 75px;
+    }
+    section {
+        --alpha: .7!important;
+    }
+    .restrict {
+        width: 100%;
+    }
+    [data-section-type="contact"] {
+        display: flex;
+    }
+}
